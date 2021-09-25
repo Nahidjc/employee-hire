@@ -26,23 +26,26 @@ const Employee = (props) => {
                     <MDBCardText>
                         Email: {Email}
                         <br />
-                        Salary : ${salary}
+                        Expected Salary : ${salary}
                         <br />
                         Experience : {experience}
 
                     </MDBCardText>
+                    <button className='mb-3 btn btn-sm btn-info'>Hire Employee</button>
+                    <br />
+
                     <MDBCol md='12' className='d-flex justify-content-center'>
-                        <a href='!#' className='px-2 fa-lg li-ic'>
-                            <MDBIcon fab icon='linkedin-in'></MDBIcon>
-                        </a>
+                        <a className="btn text-white  btn-sm" role="button" style={{ "background-color": " #3b5998" }} href="#!" role="button"
+                        ><i class="fab fa-facebook-f"></i
+                        ></a>
 
-                        <a href='!#' className='px-2 fa-lg tw-ic'>
-                            <MDBIcon fab icon='twitter'></MDBIcon>
-                        </a>
+                        <a className="btn text-white  btn-sm" style={{ "background-color": "#55acee" }} href="#!" role="button"
+                        ><i class="fab fa-twitter"></i
+                        ></a>
 
-                        <a href='!#' className='px-2 fa-lg fb-ic'>
-                            <MDBIcon fab icon='facebook-f'></MDBIcon>
-                        </a>
+                        <a className="btn text-white  btn-sm" style={{ "background-color": "#0082ca" }} href="#!" role="button"
+                        ><i class="fab fa-linkedin-in"></i
+                        ></a>
                     </MDBCol>
 
 

@@ -1,8 +1,8 @@
 [
     {
         "id": "1",
-      "Email": "sabbir@gmail",
-      "name": "sabbir",
+      "Email": "sabbir@gmail.com",
+      "name": "Sabbir Al Azim",
       "designation": "React Developer",
       "salary": 35000,
       "experience": "2 years",
@@ -10,7 +10,7 @@
     },
     {
         "id": "2",
-      "Email": "shahin@gmail",
+      "Email": "shahin@gmail.com",
       "name": "Meherullah Shahin",
       "designation": "Django Developer",
       "salary": 85000,
@@ -19,16 +19,16 @@
     },
     {
         "id": "3",
-      "Email": "nahid@gmail",
+      "Email": "nahidjc80@gmail.com",
       "name": "Nahid Hasan",
-      "designation": "Django Developer",
+      "designation": "Backend Django Developer",
       "salary": 85000,
       "experience": "2 years",
       "img": "https://scontent.fdac129-1.fna.fbcdn.net/v/t1.6435-9/218355656_2907353449594514_8891674803584140107_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEI72Q382BERYu6KPogIC_GjhyqGXzoJSCOHKoZfOglIB5uGIr1rMRIy8elMZL22daibYMSZHlVZVk8zxIrQoDw&_nc_ohc=CrW4A7cFlqIAX9E8sZm&_nc_ht=scontent.fdac129-1.fna&oh=1a95e2a3da89d5428c51fa83dc2479c4&oe=61752532"
     },
     {
         "id": "4",
-      "Email": "shohana@gmail",
+      "Email": "shohana@gmail.com",
       "name": "Sohana Afroz",
       "designation": "React Developer",
       "salary": 35000,
@@ -37,7 +37,7 @@
     },
     {
         "id": "5",
-      "Email": "msk@gmail",
+      "Email": "msk@gmail.com",
       "name": "Msk Sarif Khan",
       "designation": "Android Developer",
       "salary": 120000,
@@ -46,7 +46,7 @@
     },
     {
         "id": "6",
-      "Email": "topu@gmail",
+      "Email": "topu@gmail.com",
       "name": "Topu Muns",
       "designation": "Django Developer",
       "salary": 75000,
@@ -54,7 +54,7 @@
       "img": "https://scontent.fdac129-1.fna.fbcdn.net/v/t1.6435-9/40469227_1375893175877832_2202699863521492992_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeF4Wb_J6Gu9TCmbH4fHoUmVMg6H9eoqXdoyDof16ipd2sbn-SMwnKjWNyRp4Z3NBWab1itj1Jh3ajbCh2zBZB6B&_nc_ohc=Teut-Egev_gAX_1xoLO&tn=wp99w-ZwyfSDYel4&_nc_ht=scontent.fdac129-1.fna&oh=730e3c2d985c0c2707b9c17d5884c997&oe=6173889C"
     },
     {   "id": "7",
-        "Email": "tasnim@gmail",
+        "Email": "tasnim@gmail.com",
       "name": "Tasnim Ahmed",
       "designation": "Software Developer",
       "salary": 35000,
@@ -63,7 +63,7 @@
     },
     {
         "id": "8",
-      "Email": "saiful@gmail",
+      "Email": "saiful@gmail.com",
       "name": "Saiful Haque Zim",
       "designation": "React Developer",
       "salary": 35000,
@@ -72,7 +72,7 @@
     },
     {
         "id": "9",
-      "Email": "pranto@gmail",
+      "Email": "pranto@gmail.com",
       "name": "Pranto Paul",
       "designation": "React Developer",
       "salary": 35000,
