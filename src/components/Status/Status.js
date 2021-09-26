@@ -14,7 +14,7 @@ const Status = (props) => {
 
     totalEmployees = employees.map(employee => <div key={employee.id} className="text-center text-white rounded bg-info">
 
-        <h6>{employee.name}  <button type="button" id="btn-confirm" className="px-3 btn btn-danger btn-sm">
+        <h6>{employee.name}  <button type="button" onClick={() => props.handleRemoveEmployee(employee)} id="btn-confirm" className="px-3 btn btn-danger btn-sm">
             <i className="fas fa-times"></i>
         </button> </h6>
     </div>)

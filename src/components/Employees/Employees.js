@@ -19,6 +19,13 @@ const Employees = () => {
         setSelectedEmployees(newEmployee);
 
     }
+
+    const handleRemoveEmployee = (employee) => {
+        // array.splice(index, 1);
+        let newEmployee = selectedEmployees.filter(e => e.id !== employee.id);
+        console.log(newEmployee);
+        setSelectedEmployees(newEmployee)
+    }
     return (
         <div>
             <div className="row">
@@ -30,7 +37,7 @@ const Employees = () => {
                     </div>
                 </div>
                 <div className="col-md-3">
-                    <Status selectedEmployees={selectedEmployees} key={selectedEmployees.id} ></Status>
+                    <Status handleRemoveEmployee={handleRemoveEmployee} selectedEmployees={selectedEmployees} key={selectedEmployees.id} ></Status>
                 </div>
             </div>
 
