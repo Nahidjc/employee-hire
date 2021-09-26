@@ -1,5 +1,4 @@
 import React from 'react';
-import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage, MDBBtn, MDBRipple } from 'mdb-react-ui-kit';
 const Status = (props) => {
 
     const employees = props.selectedEmployees;
