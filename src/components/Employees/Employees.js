@@ -1,3 +1,7 @@
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
+import Snackbar from '@mui/material/Snackbar';
+import Alert from '@mui/material/Alert';;
 import React from 'react';
 import { useState, useEffect } from 'react';
 import Employee from '../Employee/Employee';
@@ -18,11 +22,28 @@ const Employees = () => {
         if (!exitsEmployee) {
             let newEmployee = [...selectedEmployees, employee];
             setSelectedEmployees(newEmployee);
+        } else {
+            handleClick();
         }
 
 
 
     }
+    const [open, setOpen] = React.useState(false);
+
+    const handleClick = () => {
+        setOpen(true);
+    };
+
+    const handleClose = (event, reason) => {
+        if (reason === 'clickaway') {
+            return;
+        }
+
+        setOpen(false);
+    };
+
+
 
     const handleRemoveEmployee = (employee) => {
         // array.splice(index, 1);
@@ -44,6 +65,14 @@ const Employees = () => {
                 <div className="col-md-3">
                     <Status handleRemoveEmployee={handleRemoveEmployee} selectedEmployees={selectedEmployees} key={selectedEmployees.id} ></Status>
                 </div>
+
+                <Stack spacing={2} sx={{ width: '100%' }}>
+
+                    <Snackbar open={open} autoHideDuration={1000} onClose={handleClose}>
+                        <Alert severity="warning">The Employee Already Added!</Alert>
+                    </Snackbar>
+
+                </Stack>
             </div>
 
         </div>
