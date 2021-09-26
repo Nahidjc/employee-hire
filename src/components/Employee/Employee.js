@@ -35,16 +35,16 @@ const Employee = (props) => {
                     <br />
 
                     <MDBCol md='12' className='d-flex justify-content-center'>
-                        <a className="text-white btn btn-sm" role="button" style={{ "background-color": " #3b5998" }} href="#!" role="button"
-                        ><i class="fab fa-facebook-f"></i
+                        <a className="text-white btn btn-sm" role="button" style={{ "backgroundColor": " #3b5998" }} href="#!" role="button"
+                        ><i className="fab fa-facebook-f"></i
                         ></a>
 
-                        <a className="text-white btn btn-sm" style={{ "background-color": "#55acee" }} href="#!" role="button"
-                        ><i class="fab fa-twitter"></i
+                        <a className="text-white btn btn-sm" style={{ "backgroundColor": "#55acee" }} href="#!" role="button"
+                        ><i className="fab fa-twitter"></i
                         ></a>
 
-                        <a className="text-white btn btn-sm" style={{ "background-color": "#0082ca" }} href="#!" role="button"
-                        ><i class="fab fa-linkedin-in"></i
+                        <a className="text-white btn btn-sm" style={{ "backgroundColor": "#0082ca" }} href="#!" role="button"
+                        ><i className="fab fa-linkedin-in"></i
                         ></a>
                     </MDBCol>
 
