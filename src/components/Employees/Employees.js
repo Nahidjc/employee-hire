@@ -1,5 +1,4 @@
 import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
 import Snackbar from '@mui/material/Snackbar';
 import Alert from '@mui/material/Alert';;
 import React from 'react';
@@ -69,7 +68,7 @@ const Employees = () => {
                 <Stack spacing={2} sx={{ width: '100%' }}>
 
                     <Snackbar open={open} autoHideDuration={1000} onClose={handleClose}>
-                        <Alert severity="warning">The Employee Already Added!</Alert>
+                        <Alert severity="warning">This Employee Already Added!</Alert>
                     </Snackbar>
 
                 </Stack>
