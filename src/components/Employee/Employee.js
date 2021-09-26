@@ -31,19 +31,19 @@ const Employee = (props) => {
                         Experience : {experience}
 
                     </MDBCardText>
-                    <button className='mb-3 btn btn-sm btn-info'>Hire Employee</button>
+                    <button onClick={() => { props.handleEmployees(props.employee) }} className='mb-3 btn btn-sm btn-info'>Hire Employee</button>
                     <br />
 
                     <MDBCol md='12' className='d-flex justify-content-center'>
-                        <a className="btn text-white  btn-sm" role="button" style={{ "background-color": " #3b5998" }} href="#!" role="button"
+                        <a className="text-white btn btn-sm" role="button" style={{ "background-color": " #3b5998" }} href="#!" role="button"
                         ><i class="fab fa-facebook-f"></i
                         ></a>
 
-                        <a className="btn text-white  btn-sm" style={{ "background-color": "#55acee" }} href="#!" role="button"
+                        <a className="text-white btn btn-sm" style={{ "background-color": "#55acee" }} href="#!" role="button"
                         ><i class="fab fa-twitter"></i
                         ></a>
 
-                        <a className="btn text-white  btn-sm" style={{ "background-color": "#0082ca" }} href="#!" role="button"
+                        <a className="text-white btn btn-sm" style={{ "background-color": "#0082ca" }} href="#!" role="button"
                         ><i class="fab fa-linkedin-in"></i
                         ></a>
                     </MDBCol>
