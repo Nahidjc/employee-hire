@@ -5,7 +5,7 @@ import {
 } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
 
-class Header extends Component {
+class Navbar extends Component {
     state = {
         isOpen: false
     };
@@ -19,7 +19,7 @@ class Header extends Component {
             <Router>
                 <MDBNavbar color="indigo" dark expand="md">
                     <MDBNavbarBrand>
-                        <strong className="white-text">Navbar</strong>
+                        <strong className="white-text">SoftTech</strong>
                     </MDBNavbarBrand>
                     <MDBNavbarToggler onClick={this.toggleCollapse} />
                     <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
@@ -28,30 +28,18 @@ class Header extends Component {
                                 <MDBNavLink to="#!">Home</MDBNavLink>
                             </MDBNavItem>
                             <MDBNavItem>
-                                <MDBNavLink to="#!">Features</MDBNavLink>
+                                <MDBNavLink to="#!">Designation</MDBNavLink>
                             </MDBNavItem>
                             <MDBNavItem>
                                 <MDBNavLink to="#!">Pricing</MDBNavLink>
                             </MDBNavItem>
-                            <MDBNavItem>
-                                <MDBDropdown>
-                                    <MDBDropdownToggle nav caret>
-                                        <span className="mr-2">Dropdown</span>
-                                    </MDBDropdownToggle>
-                                    <MDBDropdownMenu>
-                                        <MDBDropdownItem href="#!">Action</MDBDropdownItem>
-                                        <MDBDropdownItem href="#!">Another Action</MDBDropdownItem>
-                                        <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                                        <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                                    </MDBDropdownMenu>
-                                </MDBDropdown>
-                            </MDBNavItem>
+
                         </MDBNavbarNav>
                         <MDBNavbarNav right>
                             <MDBNavItem>
                                 <MDBFormInline waves>
                                     <div className="my-0 md-form">
-                                        <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
+                                        <input className="form-control mr-sm-2" type="text" placeholder="Search Employee" aria-label="Search" />
                                     </div>
                                 </MDBFormInline>
                             </MDBNavItem>
@@ -63,4 +51,4 @@ class Header extends Component {
     }
 }
 
-export default Header;
+export default Navbar;

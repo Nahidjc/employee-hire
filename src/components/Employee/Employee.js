@@ -1,5 +1,6 @@
 import React from 'react';
 import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBRow, MDBCol, MDBView, MDBIcon } from 'mdbreact';
+import './Employee.css'
 const Employee = (props) => {
     const { name, designation, img, salary, experience, Email } = props.employee;
     return (
@@ -10,10 +11,10 @@ const Employee = (props) => {
                 <MDBCardImage
                     hover
                     overlay='white-light'
-                    className='card-img-top'
+                    className='pt-2 rounded-circle card-img-top'
                     src={img}
                     alt='man'
-                    style={{ "height": "400px" }}
+                    style={{ "height": "200px", "width": "200px", 'margin': 'auto' }}
                 />
 
                 <MDBCardBody cascade className='text-center'>
