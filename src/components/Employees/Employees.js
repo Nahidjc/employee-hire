@@ -14,14 +14,19 @@ const Employees = () => {
     }, []);
 
     const handleEmployees = (employee) => {
+        let exitsEmployee = selectedEmployees.find(o => o.id === employee.id);
+        if (!exitsEmployee) {
+            let newEmployee = [...selectedEmployees, employee];
+            setSelectedEmployees(newEmployee);
+        }
 
-        let newEmployee = [...selectedEmployees, employee];
-        setSelectedEmployees(newEmployee);
+
 
     }
 
     const handleRemoveEmployee = (employee) => {
         // array.splice(index, 1);
+
         let newEmployee = selectedEmployees.filter(e => e.id !== employee.id);
         console.log(newEmployee);
         setSelectedEmployees(newEmployee)
