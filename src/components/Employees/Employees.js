@@ -30,7 +30,7 @@ const Employees = () => {
                     </div>
                 </div>
                 <div className="col-md-3">
-                    <Status selectedEmployees={selectedEmployees} ></Status>
+                    <Status selectedEmployees={selectedEmployees} key={selectedEmployees.id} ></Status>
                 </div>
             </div>
 
