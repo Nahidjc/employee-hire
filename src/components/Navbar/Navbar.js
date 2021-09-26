@@ -10,6 +10,7 @@ class Navbar extends Component {
         isOpen: false
     };
 
+
     toggleCollapse = () => {
         this.setState({ isOpen: !this.state.isOpen });
     }
@@ -39,7 +40,7 @@ class Navbar extends Component {
                             <MDBNavItem>
                                 <MDBFormInline waves>
                                     <div className="my-0 md-form">
-                                        <input className="form-control mr-sm-2" type="text" placeholder="Search Employee" aria-label="Search" />
+                                        <input className="form-control mr-sm-2" onChange={this.props.handleSearch} type="text" placeholder="Search Employee" aria-label="Search" />
                                     </div>
                                 </MDBFormInline>
                             </MDBNavItem>

@@ -1,8 +1,6 @@
 import React from 'react';
 const Status = (props) => {
-
     const employees = props.selectedEmployees;
-    console.log(employees);
     let totalSalary = 0;
     let totalEmployees = [];
     for (const employee of employees) {

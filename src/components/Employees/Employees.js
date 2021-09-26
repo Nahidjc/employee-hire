@@ -5,15 +5,24 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import Employee from '../Employee/Employee';
 import Status from '../Status/Status';
-const Employees = () => {
+const Employees = (props) => {
+    let searchEmployee = props.searchEmployee;
+
+
+
 
     const [employees, setEmployees] = useState([]);
     const [selectedEmployees, setSelectedEmployees] = useState([]);
+    const [displayEmployees, setDisplay] = useState([]);
 
     useEffect(() => {
         fetch('./employees.json')
             .then(response => response.json())
-            .then(data => setEmployees(data))
+            .then(data => {
+
+                setEmployees(data)
+                setDisplay(data)
+            })
     }, []);
 
     const handleEmployees = (employee) => {
@@ -51,17 +60,26 @@ const Employees = () => {
         console.log(newEmployee);
         setSelectedEmployees(newEmployee)
     }
+
+    // if (searchEmployee) {
+    //     console.log(searchEmployee);
+
+    //     let showEmployees = employees.filter((employee) => employee.name.toLowerCase().includes(searchEmployee.toLowerCase()));
+    //     // setDisplay(showEmployees)
+    //     console.log(showEmployees)
+    // }
     return (
         <div>
             <div className="row">
-                <div className="col-md-9">
+
+                <div className="col-md-9 ">
                     <div className="row">
                         {
                             employees.map((employee) => <Employee handleEmployees={handleEmployees} key={employee.id} employee={employee}></Employee>)
                         }
                     </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-3 order">
                     <Status handleRemoveEmployee={handleRemoveEmployee} selectedEmployees={selectedEmployees} key={selectedEmployees.id} ></Status>
                 </div>
 
