@@ -3,7 +3,7 @@
         "id": "1",
       "Email": "sabbir@gmail.com",
       "name": "Sabbir Al Azim",
-      "designation": "React Developer",
+      "designation": "Front-End Developer",
       "salary": 35000,
       "experience": "2 years",
       "img": "https://scontent.fdac129-1.fna.fbcdn.net/v/t1.6435-9/241824195_2019723574867694_1985437895778891454_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFCrv0AXSYBk1hHWcLeptsWfvu0m21z4Qx--7SbbXPhDBhmt-yzRdGQI86N5JOIz9gmhtaw7AqsOrpHKGiAOY7H&_nc_ohc=WmzcDtRUfM4AX-A72H4&_nc_ht=scontent.fdac129-1.fna&oh=b2507212d28ab2f8283ae422a957ca83&oe=61754780"
@@ -30,7 +30,7 @@
         "id": "4",
       "Email": "shohana@gmail.com",
       "name": "Sohana Afroz",
-      "designation": "React Developer",
+      "designation": "Front-end Developer",
       "salary": 35000,
       "experience": "2 years",
       "img": "https://scontent.fdac129-1.fna.fbcdn.net/v/t1.6435-9/64897915_371871233685501_6222439259987509248_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHKv7mgotD2nrZAIrByF45BjXjXDfRsE8GNeNcN9GwTwX9--LQGHIKzgblq_j0qWIiedo_m1UXWEG2Gj5_8XDdA&_nc_ohc=oJS2S1IY-SIAX_x5lxU&_nc_ht=scontent.fdac129-1.fna&oh=3d94f9c2908c8537f7a51324066f0040&oe=617307E4"
@@ -56,7 +56,7 @@
     {   "id": "7",
         "Email": "tasnim@gmail.com",
       "name": "Tasnim Ahmed",
-      "designation": "Software Developer",
+      "designation": "Software Engineer",
       "salary": 35000,
       "experience": "2 years",
       "img": "https://scontent.fdac129-1.fna.fbcdn.net/v/t1.6435-9/84357718_2505482899668129_4111186276764352512_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFwF0OC778KCJk_0ug074IFMYwhBF7dcvYxjCEEXt1y9oeJVwb9qmjEcj9cznwQNFebmoDRvKBZWfbhWgys4icc&_nc_ohc=h75X4M-lUcIAX9tklga&_nc_ht=scontent.fdac129-1.fna&oh=347a93ffdd430a0f567c7ead51fed288&oe=61757B8C"
@@ -74,7 +74,7 @@
         "id": "9",
       "Email": "pranto@gmail.com",
       "name": "Pranto Paul",
-      "designation": "React Developer",
+      "designation": "React Native Developer",
       "salary": 35000,
       "experience": "2 years",
       "img": "https://scontent.fdac129-1.fna.fbcdn.net/v/t1.6435-9/s206x206/241833842_2616745021954808_3326918487659972442_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=da31f3&_nc_eui2=AeEEIMunzJNHk3gnoO2ZHrGUPBTI2Qj3sxY8FMjZCPezFr1nVMdmdQv-F5ePvd1af5qgCiOiBz76SZ0R5SkTdDwW&_nc_ohc=FQZ3Z2_7vmAAX9YxQQi&_nc_ht=scontent.fdac129-1.fna&oh=046954e5e0fc7a4ffd30dacdd53b501d&oe=61757D5C"

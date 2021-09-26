@@ -23,7 +23,7 @@ const Status = (props) => {
             <div className="card-body">
 
                 <div className="card-text">
-                    <h6>Total Amount of Hiring Employee: ${totalSalary}</h6>
+                    <h6 className='p-2 text-warning'>Total Amount of Hiring Employee: ${totalSalary}</h6>
                 </div>
                 <h5 className="p-2 text-center text-white card-title bg-dark ">Hired Employee List</h5>
                 {totalEmployees}
