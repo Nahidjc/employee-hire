@@ -9,11 +9,17 @@ const Status = (props) => {
 
     }
 
-    totalEmployees = employees.map(employee => <div key={employee.id} className="text-center text-white rounded bg-info">
-
-        <h6><img src={employee.img} className="rounded-circle" style={{ "height": "40px", "width": "40px" }} alt="" /> {employee.name}  <button type="button" onClick={() => props.handleRemoveEmployee(employee)} id="btn-confirm" className="px-3 btn btn-danger btn-sm">
-            <i className="fas fa-times"></i>
-        </button> </h6>
+    totalEmployees = employees.map(employee => <div key={employee.id} className="mb-1 text-center text-white rounded bg-info">
+        <div className="p-2 row">
+            <div className="col-md-2 ">
+                <img src={employee.img} className="rounded-circle" style={{ "height": "40px", "width": "40px" }} alt="" />
+            </div>
+            <div className="col-md-10">
+                <h6> {employee.name}  <button type="button" onClick={() => props.handleRemoveEmployee(employee)} id="btn-confirm" className="px-3 btn btn-danger btn-sm">
+                    <i className="fas fa-times"></i>
+                </button> </h6>
+            </div>
+        </div>
     </div>)
     return (
         <div className="card">
