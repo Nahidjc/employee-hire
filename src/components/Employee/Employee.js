@@ -6,7 +6,7 @@ const Employee = (props) => {
     return (
 
 
-        <MDBCol md='4' className='mb-4'>
+        <MDBCol md='4' sm='6' xs='8' className='mb-4'>
             <MDBCard>
                 <MDBCardImage
                     hover

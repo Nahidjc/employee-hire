@@ -101,7 +101,7 @@
   {
     "id": "12",
     "Email": "nirob@gmail.com",
-    "name": "Nirob Ahemd",
+    "name": "Nirob Ahmed",
     "designation": "React Native Developer",
     "salary": 35000,
     "experience": "2 years",
@@ -124,5 +124,14 @@
     "salary": 200000,
     "experience": "10 years",
     "img": "https://scontent.fdac129-1.fna.fbcdn.net/v/t1.6435-9/218979876_5734023220001742_2120483588648028661_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGJoEwDJYTsxVaHTOocUVlr7WMA5Su7doPtYwDlK7t2g5CCQj0vh5f907Mij3xETbaebnmSyWUHbTrYl07lhWhB&_nc_ohc=SzFmqXu6DTkAX84o568&tn=LDIt0_IqIKMwIKbj&_nc_ht=scontent.fdac129-1.fna&oh=1eae7f7f13503a82367d95121f1bb005&oe=617689A4"
+  },
+  {
+    "id": "15",
+    "Email": "masud@gmail.com",
+    "name": "Masud Rana",
+    "designation": " Software Engineer",
+    "salary": 100000,
+    "experience": "2 years",
+    "img": "https://scontent.fdac129-1.fna.fbcdn.net/v/t1.6435-9/158964885_2934332403479812_6286689156780182372_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=19026a&_nc_eui2=AeG28EjQLGJZ8vGsQOPe6eLzw8XBL3Ig3DPDxcEvciDcM9wI5gWt3pq9f0_jaXYt2AnYiLRolxsaRfnqAU7Nlfuz&_nc_ohc=J5bzVDoaFysAX8l9279&_nc_ht=scontent.fdac129-1.fna&oh=f3734aa72debd433552b561870fc0e94&oe=6175CE3C"
   }
 ]
