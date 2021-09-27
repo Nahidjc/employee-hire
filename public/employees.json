@@ -78,5 +78,51 @@
       "salary": 35000,
       "experience": "2 years",
       "img": "https://scontent.fdac129-1.fna.fbcdn.net/v/t1.6435-9/s206x206/241833842_2616745021954808_3326918487659972442_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=da31f3&_nc_eui2=AeEEIMunzJNHk3gnoO2ZHrGUPBTI2Qj3sxY8FMjZCPezFr1nVMdmdQv-F5ePvd1af5qgCiOiBz76SZ0R5SkTdDwW&_nc_ohc=FQZ3Z2_7vmAAX9YxQQi&_nc_ht=scontent.fdac129-1.fna&oh=046954e5e0fc7a4ffd30dacdd53b501d&oe=61757D5C"
-    }
+    },
+    {
+      "id": "10",
+    "Email": "tanjirul@gmail.com",
+    "name": "Tanjirul Islam",
+    "designation": "Full Stack Developer",
+    "salary": 100000,
+    "experience": "3years",
+    "img": "https://scontent.fdac129-1.fna.fbcdn.net/v/t1.6435-9/219921023_2901747306741014_546534511964571221_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEX8mtCsntC5Ar-1sGnSSgxI9FzKoczBqQj0XMqhzMGpGMMEeCfb5YalEvAY4YbN_q2dahNOpw5ZlzH1okvG4Mu&_nc_ohc=L1FqAPG4n3oAX88CcdE&_nc_ht=scontent.fdac129-1.fna&oh=5e37356ba32ec0020cf3f40ece08a38e&oe=61751E03"
+  }
+  ,
+  {
+    "id": "11",
+  "Email": "aminul@gmail.com",
+  "name": "Aminul Haque",
+  "designation": "Associate Professor",
+  "salary": 350000,
+  "experience": "17 years",
+  "img": "https://scontent.fdac129-1.fna.fbcdn.net/v/t1.6435-9/75481858_10221112612785529_8437076907798822912_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFwEpxRacdLvHUIixHFOQond_MHCnvXx4F38wcKe9fHgXGiWfcpcMmekEMpdBGdSF4eLWYWEFyPl51GPtt9jv53&_nc_ohc=MzCsDzPZGdQAX9dp1tH&_nc_ht=scontent.fdac129-1.fna&oh=db2a4c619d65f7c9ddecac312c4ae64f&oe=6177F2B1"
+},
+{
+  "id": "12",
+"Email": "nirob@gmail.com",
+"name": "Nirob Ahemd",
+"designation": "React Native Developer",
+"salary": 35000,
+"experience": "2 years",
+"img": "https://scontent.fdac129-1.fna.fbcdn.net/v/t1.6435-1/p200x200/158690633_558716215107581_87225595738333246_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=7206a8&_nc_eui2=AeH_bCTqEfi0kNvIiGZeeJ1bmx_YqiAYsPibH9iqIBiw-MrkPUWdUlkElcICAEGyvTLXPZqDmi7vImfBs0W4w9aJ&_nc_ohc=rqlP1fwe1PMAX-lalnO&tn=LDIt0_IqIKMwIKbj&_nc_ht=scontent.fdac129-1.fna&oh=2e6cca90ad7b82a84a5642bf3da0bca2&oe=6176B940"
+},
+{
+  "id": "13",
+"Email": "mizan@gmail.com",
+"name": "Mizanur Rahman",
+"designation": "React  Developer",
+"salary": 35000,
+"experience": "2 years",
+"img": "https://scontent.fdac129-1.fna.fbcdn.net/v/t1.6435-9/240473220_2613371795637272_5634273796278892164_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeE6D4WrVesKZdyNrGp0497qBy5-hQOyaawHLn6FA7JprFZeqs3p-m0LwS0W1AM8KtA_Xg-Rg3lFzsEQ7YGrJyXX&_nc_ohc=Q9JVf8_sZaEAX9MRzN3&tn=LDIt0_IqIKMwIKbj&_nc_ht=scontent.fdac129-1.fna&oh=9da57e072a12fdb907b4f9a0ff86b83d&oe=61760BFC"
+},
+{
+  "id": "14",
+"Email": "jahangir@gmail.com",
+"name": "Mohammad Jahangir Alam",
+"designation": "Sr Software Engineer",
+"salary": 200000,
+"experience": "10 years",
+"img": "https://scontent.fdac129-1.fna.fbcdn.net/v/t1.6435-9/218979876_5734023220001742_2120483588648028661_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGJoEwDJYTsxVaHTOocUVlr7WMA5Su7doPtYwDlK7t2g5CCQj0vh5f907Mij3xETbaebnmSyWUHbTrYl07lhWhB&_nc_ohc=SzFmqXu6DTkAX84o568&tn=LDIt0_IqIKMwIKbj&_nc_ht=scontent.fdac129-1.fna&oh=1eae7f7f13503a82367d95121f1bb005&oe=617689A4"
+}
   ]
